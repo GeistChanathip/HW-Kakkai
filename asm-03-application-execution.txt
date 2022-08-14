@@ -1,0 +1,165 @@
+##Section 1
+
+1. rust			
+: .rs , cargo run nongkai.rs
+
+2. nodejs (javascript)	
+: .js , npm run  nongkai.js node nongkai.js
+
+3. go			
+: .go ,  go run .
+
+4. java			
+: .java , javac nongkai.  	or   java java-jar kakkai.jar file 
+
+5. C#			
+: .DLL .cs , csc File_name.cs or dotnet run
+
+6. Scalar		
+: .sbt .jar ,  java-jar kakkai.jar
+
+7. Haskell		
+: .hs , runhaskell kakkai.hs
+
+8. C			
+: .c ,  gcc kakkai.c, ./a.out
+
+9. php			
+: .php .exe ,  php file_name.php.
+
+10. ruby			
+: .rb , ruby "c:\kakkai\test.rb"
+
+11. Typescript (javascript)
+: .json .ts , tsc Kakkai.ts
+
+12. deno			
+: .ts , deno run --allow-net server.ts
+
+13. bun			
+: .js , bun run kakkai.js
+
+14. python		
+: .py ,  python3 hello.py
+
+15. R			
+:  .r ,  Rscript file.r
+
+
+16. Carbon		
+: .carbon , barsel run kakkai.carbon
+
+17. Erlang		
+: .erl , erl -compile Module1... or erl -make
+
+18. Kotlin		
+: .kts , kotlinc hello.kt -d hello.jar
+
+19. Flutter		
+: .dart , lib/main.dart
+
+20. ObjectiveC		
+: .m , gcc kakkai.m
+
+21. WebAssembly //สามารถใช้ได้กับหลายภาษา
+: .wasm ,
+	C++ => $ emcc [file].c => output => [file].wasm
+	Rust => $ wasm pack build [file].rs => output => [file].wasm 
+
+22. SQL			
+: .sql , dbisql -c "DSN=SQL Anywhere 12 deno" kakkai.sql
+
+23. Shell			
+:  .sh , ./<fileName>.
+
+24. Assembly		
+: .asm , nasm -f [os] kakkai.asm
+
+25. Swift			
+: .swift , swift run kakkai.swift
+
+26. Lua			
+: .lua , kakkai.lua
+
+
+##Section 2
+
+Web Application Languages
+
+1.Java
+$ java -jar jarfile.jar
+$ javac main.java && java main
+
+2.PHP
+$ php main.php
+
+3.Python
+$ python main.py
+
+4.JavaScript
+$ node <index.js>
+
+5.Swift
+Use the swift run command to build and run the executable:
+$ swift run main.swift
+Also compile the package by running the swift build command and then run the binary from .build directory:
+$ swift build && .build/x86_64-apple-macosx10.10/debug/Hello
+
+6.Kotlin
+$ kotlinc main.kt -d main.jar
+
+7.Ruby
+$ ruby main.rb
+
+8.TypeScript
+$ tsc main.ts
+
+9.WebAssembly
+$
+
+10.C#
+dotnet run
+dotnet "main.dll"
+
+11.Deno
+$ deno run main.ts
+
+12.Bun
+$ bun run main.js
+
+13.Lua
+$ ./main.lua
+
+14.SQL
+$ dbisql -c "DSN=SQL Anywhere 12 Demo" myscript.sql Runs the SQL script file myscript.sql against the SQL Anywhere sample database.
+
+15.Flutter
+$ lib/main.dart
+
+16.Rust
+$ ./target/debug/hello_cargo or .\target\debug\hello_cargo.exe on Windows
+$ cargo run main.rs
+
+
+Mobile application Languages
+
+1.Flutter
+2.Objective-C : For writing iOS apps
+3.Swift : For writing iOS apps
+4.Python : Android
+5.C : Android
+6.C ++ : Android
+7.Java : Android
+
+
+Command Line Languages
+
+1.Shell
+2.Haskell
+3.SQL
+4.Python
+5.Ruby
+6.Lua
+7.Assembly
+8.Scalar
+9.Erlang
