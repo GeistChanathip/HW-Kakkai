@@ -115,7 +115,8 @@ $ ruby main.rb
 $ tsc main.ts
 
 9.WebAssembly
-$
+C++ => $ emcc [file].c => output => [file].wasm
+Rust => $ wasm pack build [file].rs => output => [file].wasm
 
 10.C#
 dotnet run
