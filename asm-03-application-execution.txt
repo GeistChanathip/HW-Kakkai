@@ -164,3 +164,4 @@ Command Line Languages
 7.Assembly
 8.Scalar
 9.Erlang
+10.Rust
