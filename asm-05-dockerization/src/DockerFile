@@ -1,0 +1,6 @@
+FROM node:11-alpine as frontend
+WORKDIR /MYAPP/src/main
+COPY package.json package-lock.json
+RUN npm install
+EXPOSE 3000
+CMD ["node", "app.js"]
